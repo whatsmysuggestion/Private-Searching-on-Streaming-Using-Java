@@ -1,0 +1,7 @@
+create database privatesearching;
+use privatesearching;
+create table user(id char(25),name char(25),email char(25),password char(25),dob char(25),gender char(25),address char(25),mobile char(25));
+create table user_history (id char(25),urlHistory char(25),EncrypyUrl char(25),Product char(25),dateTime char(25),status char(25),userid char(25));
+create table files (filename char(25),fileid char(25),filekey char(25),subkey char(25),c char(25),active char(25));
+create table files1(id char(25),file char(25),category char(25),url char(25));
+ 
